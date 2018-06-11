@@ -1,0 +1,75 @@
+start OnDemand GD_Soldier_Streaming
+## Guerrila ##
+
+set GD_Soldier_Skills.SkillTree.Branch_Guerrilla Tiers[0].Skills[0] SkillDefinition'GD_Soldier_Skills.Guerrilla.CrisisManagement'
+
+set GD_Soldier_Skills.SkillTree.Branch_Guerrilla Tiers[0].Skills[1] SkillDefinition'GD_Soldier_Skills.Survival.Preparation'
+
+set GD_Soldier_Skills.SkillTree.Branch_Guerrilla Tiers[1].Skills[0] SkillDefinition'GD_Soldier_Skills.Gunpowder.DoOrDie'
+
+set GD_Soldier_Skills.SkillTree.Branch_Guerrilla Tiers[1].Skills[1] SkillDefinition'GD_Soldier_Skills.Survival.LastDitchEffort'
+
+set GD_Soldier_Skills.SkillTree.Branch_Guerrilla Tiers[2].Skills[0] SkillDefinition'GD_Soldier_Skills.Survival.Mag-Lock'
+
+set GD_Soldier_Skills.SkillTree.Branch_Guerrilla Tiers[2].Skills[1] SkillDefinition'GD_Soldier_Skills.Survival.Gemini'
+
+set GD_Soldier_Skills.SkillTree.Branch_Guerrilla Tiers[2].Skills[2] SkillDefinition'GD_Soldier_Skills.Survival.Grit'
+
+set GD_Soldier_Skills.SkillTree.Branch_Guerrilla Tiers[3].Skills[0] SkillDefinition'GD_Soldier_Skills.Gunpowder.Steady'
+
+set GD_Soldier_Skills.SkillTree.Branch_Guerrilla Tiers[4].Skills[0] SkillDefinition'GD_Soldier_Skills.Guerrilla.DoubleUp'
+
+set GD_Soldier_Skills.SkillTree.Branch_Guerrilla Tiers[5].Skills[0] SkillDefinition'GD_Soldier_Skills.Survival.QuickCharge'
+
+## Gunpowder ##
+
+set GD_Soldier_Skills.SkillTree.Branch_Gunpowder Tiers[0].Skills[0] SkillDefinition'GD_Soldier_Skills.Survival.Pressure'
+
+set GD_Soldier_Skills.SkillTree.Branch_Gunpowder Tiers[0].Skills[1] SkillDefinition'GD_Soldier_Skills.Guerrilla.Sentry'
+
+set GD_Soldier_Skills.SkillTree.Branch_Gunpowder Tiers[1].Skills[0] SkillDefinition'GD_Soldier_Skills.Gunpowder.Impact'
+
+set GD_Soldier_Skills.SkillTree.Branch_Gunpowder Tiers[1].Skills[1] SkillDefinition'GD_Soldier_Skills.Guerrilla.Able'
+
+set GD_Soldier_Skills.SkillTree.Branch_Gunpowder Tiers[2].Skills[0] SkillDefinition'GD_Soldier_Skills.Gunpowder.Battlefront'
+
+set GD_Soldier_Skills.SkillTree.Branch_Gunpowder Tiers[2].Skills[1] SkillDefinition'GD_Soldier_Skills.Survival.Forbearance'
+
+set GD_Soldier_Skills.SkillTree.Branch_Gunpowder Tiers[2].Skills[2] SkillDefinition'GD_Soldier_Skills.Gunpowder.LongBowTurret'
+
+set GD_Soldier_Skills.SkillTree.Branch_Gunpowder Tiers[3].Skills[0] SkillDefinition'GD_Soldier_Skills.Guerrilla.Onslaught'
+
+set GD_Soldier_Skills.SkillTree.Branch_Gunpowder Tiers[3].Skills[1] SkillDefinition'GD_Soldier_Skills.Guerrilla.LaserSight'
+
+set GD_Soldier_Skills.SkillTree.Branch_Gunpowder Tiers[4].Skills[0] SkillDefinition'GD_Soldier_Skills.Survival.PhalanxShield'
+
+set GD_Soldier_Skills.SkillTree.Branch_Gunpowder Tiers[5].Skills[0] SkillDefinition'GD_Soldier_Skills.Guerrilla.Ready'
+
+## Survival ##
+
+set GD_Soldier_Skills.SkillTree.Branch_Survival Tiers[0].Skills[0] SkillDefinition'GD_Soldier_Skills.Survival.Resourceful'
+
+set GD_Soldier_Skills.SkillTree.Branch_Survival Tiers[0].Skills[1] SkillDefinition'GD_Soldier_Skills.Guerrilla.Willing'
+
+set GD_Soldier_Skills.SkillTree.Branch_Survival Tiers[1].Skills[0] SkillDefinition'GD_Soldier_Skills.Gunpowder.Nuke'
+
+set GD_Soldier_Skills.SkillTree.Branch_Survival Tiers[1].Skills[1] SkillDefinition'GD_Soldier_Skills.Gunpowder.MetalStorm'
+
+set GD_Soldier_Skills.SkillTree.Branch_Survival Tiers[2].Skills[0] SkillDefinition'GD_Soldier_Skills.Guerrilla.ScorchedEarth'
+
+set GD_Soldier_Skills.SkillTree.Branch_Survival Tiers[2].Skills[1] SkillDefinition'GD_Soldier_Skills.Guerrilla.Grenadier'
+
+set GD_Soldier_Skills.SkillTree.Branch_Survival Tiers[2].Skills[2] SkillDefinition'GD_Soldier_Skills.Gunpowder.Overload'
+
+set GD_Soldier_Skills.SkillTree.Branch_Survival Tiers[3].Skills[0] SkillDefinition'GD_Soldier_Skills.Gunpowder.DutyCalls'
+
+set GD_Soldier_Skills.SkillTree.Branch_Survival Tiers[3].Skills[1] SkillDefinition'GD_Soldier_Skills.Gunpowder.Expertise'
+
+set GD_Soldier_Skills.SkillTree.Branch_Survival Tiers[4].Skills[0] SkillDefinition'GD_Soldier_Skills.Gunpowder.Ranger'
+
+set GD_Soldier_Skills.SkillTree.Branch_Survival Tiers[5].Skills[0] SkillDefinition'GD_Soldier_Skills.Survival.HealthY'
+
+set GD_Soldier_Skills.SkillTree.Branch_Survival BranchName ruff
+set GD_Soldier_Skills.SkillTree.Branch_Gunpowder BranchName shake
+set GD_Soldier_Skills.SkillTree.Branch_Guerrilla BranchName average
+
